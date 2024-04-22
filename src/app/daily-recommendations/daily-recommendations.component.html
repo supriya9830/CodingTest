@@ -1,0 +1,93 @@
+<img src="assets/arrowleft.jpg" (click)="goBack()" id="arrowleft">
+<div class="col-12">
+    <div class="col-3" align="center" *ngIf="aliaBtn">
+        <img src="assets/alia.jpg">
+        <div class="profileCSS">
+            <img src="assets/blueTick.png" id="blueTick" align="left"><a align="left" id="verified">Verified</a>&nbsp;
+            <img src="assets/premiumIcon.png" id="premiumIcon" align="center"><a align="center"
+                id="premium">&nbsp;Premium
+                NRI</a>
+            <p class="nameTitle" align="left">{{getProfileData.Alia.name}}</p>
+            <p id="Info">
+                {{getProfileData.Alia.age}},&nbsp;{{getProfileData.Alia.height}},&nbsp;{{getProfileData.Alia.cas}},
+                &nbsp;{{getProfileData.Alia.occupation}},&nbsp;{{getProfileData.Alia.address}}
+            </p>
+            <div class="lineDiv"></div>
+            <br>
+            <img src="assets/star.png" id="star" align="left" (click)="shortList('Alia')"><a align="left"
+                id="shortListed">Shortlist</a>
+            <a id="like">Like Her?</a> <img src="assets/crossIcon.png" class="cross" align="right"
+                (click)="crossIcon('Alia')">
+            <img src="assets/greenTick.jpg" class="green" align="right" (click)="greenTick('Alia')">
+        </div>
+    </div>
+    <div class="col-3" align="center" *ngIf="mamithaBtn">
+        <img src="assets/mamitha.jpg">
+        <div class="profileCSS">
+            <img src="assets/blueTick.png" id="blueTick" align="left"><a align="left" id="verified">Verified</a>&nbsp;
+            <img src="assets/premiumIcon.png" id="premiumIcon" align="center"><a align="center"
+                id="premium">&nbsp;Premium
+                NRI</a>
+            <p class="nameTitle" align="left">{{getProfileData.Mamitha.name}}</p>
+            <p id="Info">
+                {{getProfileData.Mamitha.age}},&nbsp;{{getProfileData.Mamitha.height}},&nbsp;{{getProfileData.Mamitha.cas}},
+                &nbsp;{{getProfileData.Mamitha.occupation}},&nbsp;{{getProfileData.Mamitha.address}}
+            </p>
+            <div class="lineDiv"></div>
+            <br>
+            <img src="assets/star.png" id="star" align="left" (click)="shortList('Mamitha')"><a align="left"
+                id="shortListed">Shortlist</a>
+            <a id="like">Like Her?</a><img src="assets/crossIcon.png" class="cross" align="right"
+                (click)="crossIcon('Mamitha')">
+            <img src="assets/greenTick.jpg" class="green" align="right" (click)="greenTick('Mamitha')">
+        </div>
+    </div>
+    <div class="col-3" align="center" *ngIf="kiaraBtn">
+        <img src="assets/kiara.jpg">
+        <div class="profileCSS">
+            <img src="assets/blueTick.png" id="blueTick" align="left"><a align="left" id="verified">Verified</a>&nbsp;
+            <img src="assets/premiumIcon.png" id="premiumIcon" align="center"><a align="center"
+                id="premium">&nbsp;Premium
+                NRI</a>
+            <p class="nameTitle" align="left">{{getProfileData.kiara.name}}</p>
+            <p id="Info">
+                {{getProfileData.kiara.age}},&nbsp;{{getProfileData.kiara.height}},&nbsp;{{getProfileData.kiara.cas}},
+                &nbsp;{{getProfileData.kiara.occupation}},&nbsp;{{getProfileData.kiara.address}}
+            </p>
+            <div class="lineDiv"></div>
+            <br>
+            <img src="assets/star.png" id="star" align="left" (click)="shortList('Kiara')"><a align="left"
+                id="shortListed">Shortlist</a>
+            <a id="like">Like Her?</a><img src="assets/crossIcon.png" class="cross" align="right"
+                (click)="crossIcon('Kiara')">
+            <img src="assets/greenTick.jpg" class="green" align="right" (click)="greenTick('Kiara')">
+        </div>
+    </div>
+    <div class="col-3" align="center" *ngIf="deepBtn">
+        <img src="assets/Deepy.webp">
+        <div class="profileCSS">
+            <img src="assets/blueTick.png" id="blueTick" align="left"><a align="left" id="verified">Verified</a>&nbsp;
+            <img src="assets/premiumIcon.png" id="premiumIcon" align="center"><a align="center"
+                id="premium">&nbsp;Premium
+                NRI</a>
+            <p class="nameTitle" align="left">{{getProfileData.Deep.name}}</p>
+            <p id="Info">
+                {{getProfileData.Deep.age}},&nbsp;{{getProfileData.Deep.height}},&nbsp;{{getProfileData.Deep.cas}},
+                &nbsp;{{getProfileData.Deep.occupation}},&nbsp;{{getProfileData.Deep.address}}
+            </p>
+            <div class="lineDiv"></div>
+            <br>
+            <img src="assets/star.png" id="star" align="left" (click)="shortList('Deep')"><a align="left"
+                id="shortListed">Shortlist</a>
+            <a id="like">Like Her?</a><img src="assets/crossIcon.png" class="cross" align="right"
+                (click)="crossIcon('Deep')">
+            <img src="assets/greenTick.jpg" class="green" align="right" (click)="greenTick('Deep')">
+        </div>
+    </div>
+</div>
+
+<div *ngIf="noRecommendation" align="center">
+    <div class="container">
+        Sorry!! No more recommendations...
+    </div>
+</div>

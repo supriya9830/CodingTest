@@ -1,0 +1,113 @@
+<img src="assets/arrowleft.jpg" (click)="goBack()" class="goBack">
+<!-- <div class="col-12">
+    <div class="col-3" align="center" *ngIf="getName == 'nazi'">
+        <img src="assets/Nazi.png" class="imageSlide">
+        <img src="assets/Nazi1.jpg" class="imageSlide">
+        <img src="assets/Nazi2.jpg" class="imageSlide">
+        <img src="assets/Nazi3.jpg" class="imageSlide">
+        <img src="assets/Nazi4.jpg" class="imageSlide">
+        <div *ngFor="let img of slideImage; let i = index">
+            <img src="{{img.img[0]}}" class="imageSlide">
+        </div>
+
+    </div>
+    <button (click)="showNext(-1)">&#10094;</button>
+    <button (click)="showNext(+1)">&#10095;</button>
+</div> -->
+<div class="col-12" align="center">
+    <div class="col-3" *ngIf="getName == 'nazi'">
+        <img src="assets/Nazi.png" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.Priya.name}}</p>
+            <p id="Info">
+                {{getProfile.Priya.age}},&nbsp;{{getProfile.Priya.height}},&nbsp;{{getProfile.Priya.cas}},
+                &nbsp;{{getProfile.Priya.occupation}},&nbsp;{{getProfile.Priya.address}}
+            </p>
+            <!-- <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'priyanka'">
+        <img src="assets/priyanka1.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.Nazriya.name}}</p>
+            <p id="Info">
+                {{getProfile.Nazriya.age}},&nbsp;{{getProfile.Nazriya.height}},&nbsp;{{getProfile.Nazriya.cas}},
+                &nbsp;{{getProfile.Nazriya.occupation}},&nbsp;{{getProfile.Nazriya.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('priyanka')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'keerthy'">
+        <img src="assets/keerthy1.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.keerthy.name}}</p>
+            <p id="Info">
+                {{getProfile.keerthy.age}},&nbsp;{{getProfile.keerthy.height}},&nbsp;{{getProfile.keerthy.cas}},
+                &nbsp;{{getProfile.keerthy.occupation}},&nbsp;{{getProfile.keerthy.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('keerthy')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'trisha'">
+        <img src="assets/trisha1.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.trisha.name}}</p>
+            <p id="Info">
+                {{getProfile.trisha.age}},&nbsp;{{getProfile.trisha.height}},&nbsp;{{getProfile.trisha.cas}},
+                &nbsp;{{getProfile.trisha.occupation}},&nbsp;{{getProfile.trisha.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('trisha')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'ivana'">
+        <img src="assets/ivana3.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.ivana.name}}</p>
+            <p id="Info">
+                {{getProfile.ivana.age}},&nbsp;{{getProfile.ivana.height}},&nbsp;{{getProfile.ivana.cas}},
+                &nbsp;{{getProfile.ivana.occupation}},&nbsp;{{getProfile.ivana.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('ivana')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'rash'">
+        <img src="assets/rash3.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.rash.name}}</p>
+            <p id="Info">
+                {{getProfile.rash.age}},&nbsp;{{getProfile.rash.height}},&nbsp;{{getProfile.rash.cas}},
+                &nbsp;{{getProfile.rash.occupation}},&nbsp;{{getProfile.rash.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('rash')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'sneha'">
+        <img src="assets/sneha3.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.sneha.name}}</p>
+            <p id="Info">
+                {{getProfile.sneha.age}},&nbsp;{{getProfile.sneha.height}},&nbsp;{{getProfile.sneha.cas}},
+                &nbsp;{{getProfile.sneha.occupation}},&nbsp;{{getProfile.sneha.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('sneha')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+    <div class="col-3" *ngIf="getName == 'kriti'">
+        <img src="assets/kriti2.jpg" />
+        <div class="profileCSS">
+            <p class="nameTitle">{{getProfile.kriti.name}}</p>
+            <p id="Info">
+                {{getProfile.kriti.age}},&nbsp;{{getProfile.kriti.height}},&nbsp;{{getProfile.kriti.cas}},
+                &nbsp;{{getProfile.kriti.occupation}},&nbsp;{{getProfile.kriti.address}}
+            </p>
+            <!-- <button class="yesBtn" (click)="profileBrief('kriti')">Yes</button>&nbsp;
+            <button class="noBtn"> No</button> -->
+        </div>
+    </div>
+</div>

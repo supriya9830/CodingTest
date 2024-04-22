@@ -1,0 +1,173 @@
+.profileCSS {
+    background-color: white !important;
+    color: black !important;
+    padding: 1%;
+    margin-top: -4px;
+    word-break: break-all;
+    width: 16.5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* .col-12 {
+    background-image: linear-gradient(green, blue, purple, white);
+} */
+
+#arrowleft {
+    font-size: 5px;
+    width: 18px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+img {
+    height: 320px;
+    width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#verified {
+    background-color: white;
+    cursor: none;
+    color: lightblue;
+    margin-left: -22%;
+    z-index: 2;
+    /* position: relative; */
+}
+
+#premium {
+    background-color: white;
+    cursor: none;
+    color: purple;
+    /* margin-left: -49%; */
+    z-index: 2;
+}
+
+#blueTick {
+    font-size: 5px;
+    width: 21px;
+    height: 24px;
+    background-color: white;
+    z-index: 0;
+    /* position: absolute; */
+    margin-left: 1%;
+}
+
+#premiumIcon {
+    font-size: 5px;
+    width: 21px;
+    height: 24px;
+    background-color: white;
+    z-index: 0;
+    /* position: absolute; */
+    /* margin-left: 40%; */
+}
+
+#star {
+    font-size: 5px;
+    width: 21px;
+    height: 20px;
+    background-color: white;
+    z-index: 0;
+    /* position: absolute; */
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+p {
+    background-color: white !important;
+    color: black !important;
+}
+
+.nameTitle {
+    font-size: large;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lineDiv {
+    border: 1px solid gray;
+}
+
+.cross,
+.green {
+    font-size: 10px;
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    z-index: 0;
+    cursor: pointer;
+    /* margin-left: 1%; */
+}
+
+.container {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.green {
+    width: 30px;
+    height: 30px;
+    margin-top: -3px;
+}
+
+#shortListed {
+    background-color: white;
+    cursor: none;
+    /* color: lightblue; */
+    /* margin-left: -30%; */
+    z-index: 2;
+    /* color: black; */
+    margin-left: -1%;
+    /* padding-right: 10%; */
+}
+
+#like{
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    img {
+        height: 260px;
+        width: 220px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .profileCSS {
+        width: 62%;
+    }
+
+    #verified {
+        margin-left: -13%;
+        /* padding-right: 5%; */
+    }
+
+    .cross,
+    .green {
+        font-size: 7px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .green {
+        margin-top: -3.7px;
+        width: 25px;
+        height: 25px;
+    }
+
+    #like {
+        margin-left: 17%;
+    }
+
+    #shortListed{
+        margin-left: -2%;
+    }
+}

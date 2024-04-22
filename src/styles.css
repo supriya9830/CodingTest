@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    /* background-image: linear-gradient(purple, lightblue); */
+    background-image: url('assets/coolBG1.png');
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        /* background-image: url('assets/coolBG1.png'); */
+        color: black;
+        /* background-color: cornflowerblue; */
+    }
+}
